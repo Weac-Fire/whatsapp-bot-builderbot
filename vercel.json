@@ -1,7 +1,1 @@
-{
-  "functions": {
-    "api/bot.js": {
-      "runtime": "@vercel/node@3.0.7"
-    }
-  }
-}
+
