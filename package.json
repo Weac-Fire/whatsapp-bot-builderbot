@@ -8,7 +8,9 @@
     "dev": "node index.js"
   },
   "dependencies": {
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "@builderbot/bot": "latest",
+    "@builderbot/provider-baileys": "latest"
   },
   "engines": {
     "node": "18.x"
