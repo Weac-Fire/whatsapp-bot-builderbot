@@ -1,20 +1,20 @@
 {
-  "name": "whatsapp-bot-builderbot",
+  "name": "whatsapp-bot-vercel",
   "version": "1.0.0",
-  "description": "Bot WhatsApp simples usando BuilderBot",
-  "main": "app.js",
+  "description": "Bot WhatsApp para Vercel",
+  "main": "api/bot.js",
   "scripts": {
-    "start": "node app.js",
-    "dev": "node app.js"
+    "start": "vercel dev",
+    "dev": "vercel dev"
   },
   "dependencies": {
-    "@builderbot/bot": "^1.0.0",
-    "@builderbot/provider-baileys": "^1.0.0"
+    "@builderbot/bot": "latest",
+    "@builderbot/provider-baileys": "latest"
   },
   "engines": {
-    "node": ">=18.0.0"
+    "node": "18.x"
   },
-  "keywords": ["whatsapp", "bot", "baileys", "builderbot"],
+  "keywords": ["whatsapp", "bot", "baileys", "builderbot", "vercel"],
   "author": "Seu Nome",
   "license": "MIT"
 }
